@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cashapp-7379c": {
+      "hosting": {
+        "cashApp": [
+          "cashapp-7379c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cashapp-7379c"
+  }
+}

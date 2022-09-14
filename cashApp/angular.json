@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-			  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -94,6 +94,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "cashApp:build:production",
+            "firebaseProject": "cashapp-7379c",
+            "firebaseHostingSite": "cashapp-7379c"
           }
         }
       }
