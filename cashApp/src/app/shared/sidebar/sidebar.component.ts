@@ -33,6 +33,7 @@ export class SidebarComponent implements OnInit {
         didClose:() => {this.router.navigate(['/login'])}
         
       })
+      
     )
   }
 
